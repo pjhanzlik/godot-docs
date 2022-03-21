@@ -251,7 +251,7 @@ Next is ``Mob.gd``.
        velocity = velocity.rotated(Vector3.UP, rotation.y)
 
 
-    func squash():
+   func squash():
        emit_signal("squashed")
        queue_free()
 
